@@ -1,6 +1,6 @@
 # MOVIES database
 
-This is a CRUD (Create, Read, Update, Delete) web app built with the MEVN stack, which includes:
+This is a CRUD (Create, Read, Update, Delete) web app built with the MEVN stack, which implements a REST API on its back-end part.
 
 * MongoDB (using the mongoose module on Node.js) to store the movies data
 * Express.js, a web application framework for Node.js
@@ -9,7 +9,7 @@ This is a CRUD (Create, Read, Update, Delete) web app built with the MEVN stack,
 
 It manages the movies recently watched by the user, who can give them a rating. It acts as a database where the information about each movie (which includes the title, director, year, summary and user's rating) is stored and able to be changed over time.
 
-Bootstrap and [BootstrapVue](https://bootstrap-vue.org/) were used for the overall styling.
+[Bootstrap](https://getbootstrap.com/) and [BootstrapVue](https://bootstrap-vue.org/) were used for the overall styling.
 
 MongoDB must be installed and running for the application to work properly, as well as the other used frameworks of the development stack, including NPM.
 To run the back-end server, execute "node server.js" on the command line.
